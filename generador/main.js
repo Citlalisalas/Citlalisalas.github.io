@@ -286,7 +286,7 @@ function speak(texto) {
     // Select a voice
     const voices = speechSynthesis.getVoices();
     console.log(voices);
-    utterance.voice = voices[2]; // Choose a specific voice
+    utterance.voice = voices[1]; // Choose a specific voice
 
     utterance.rate = 0.8;
 
