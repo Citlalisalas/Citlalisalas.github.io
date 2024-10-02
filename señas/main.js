@@ -359,7 +359,7 @@ function preload() {
     // Select a voice
     const voices = speechSynthesis.getVoices();
     console.log(voices);
-    utterance.voice = voices[4]; // Choose a specific voice
+    utterance.voice = voices[0]; // Choose a specific voice
 
     utterance.rate = 0.8;
 
